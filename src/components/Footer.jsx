@@ -43,7 +43,7 @@ const Footer = () => {
           transition={{ duration: 1, delay: 0.4 }}
         >
           <motion.a
-            href="https://github.com/Yasirahm/sigma-web"
+            href="https://github.com/Yasirahm"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-800 text-4xl hover:text-white transition"

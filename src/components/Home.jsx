@@ -60,7 +60,7 @@ const Home = () => {
             </button>
           </a>
           <a
-            href="https://github.com/Yasirahm/sigma-web"
+            href="https://github.com/Yasirahm"
             className="text-gray-900 hover:text-white text-2xl lg:text-4xl"
           >
             <FaGithub />
