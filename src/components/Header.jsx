@@ -10,7 +10,7 @@ const Header = () => {
     <header className="p-4 bg-transparent fixed w-full top-0 z-10 shadow-lg flex justify-between items-center md:px-10">
       <div className="flex items-center">
         <img src={logo} alt="Logo" className="h-10 mr-2 rounded-full" />
-        <h1 className="text-xl lg:text-2xl font-bold text-white">Yasir Hamid</h1>
+        <h1 className="text-xl lg:text-2xl font-bold font-serif text-white ">Yasir Hamid</h1>
       </div>
       
       {/* Mobile Menu Button */}
@@ -19,7 +19,7 @@ const Header = () => {
           {isOpen ? <X size={28} /> : <Menu size={28} />}
         </button>
       </div>
-      
+       
       {/* Navigation Links */}
       <nav
         className={`absolute top-16 right-4 bg-black p-6 rounded-lg shadow-md space-y-4 flex flex-col items-start transition-all duration-300 ease-in-out 

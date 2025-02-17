@@ -18,7 +18,7 @@ const Home = () => {
         
         
         <h1 className="text-2xl sm:text-5xl font-extrabold text-white mt-4">
-          السلام عليكم, I AM <br></br><span className="text-purple-300">        Yasir Hamid</span>
+          السلام عليكم, I AM <br></br><span className="text-purple-300 font-bold font-serif ">        Yasir Hamid</span>
         </h1>
 
         <h3 className="mt-4 text-xl lg:text-2xl font-semibold text-gray-400 font-bold">

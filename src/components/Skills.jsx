@@ -48,7 +48,7 @@ const Skills = () => {
       <motion.h2 className="text-2xl lg:text-4xl font-bold mb-4 flex items-center gap-2" variants={itemVariants}>
         My Skills <span>💻</span>
       </motion.h2>
-      <motion.p className="text-gray-300 text-sm lg:text-lg mb-8" variants={itemVariants}>
+      <motion.p className="font-mono text-gray-300 text-sm lg:text-lg mb-8" variants={itemVariants}>
         I have experience in frontend web development & app development, and I'm currently learning backend development.
       </motion.p>
 
