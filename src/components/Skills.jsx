@@ -22,7 +22,7 @@ const containerVariants = {
     y: 0,
     transition: {
       staggerChildren: 0.2,
-      duration: 0.8,
+      duration: 1,
       ease: "easeOut"
     }
   }
@@ -30,7 +30,7 @@ const containerVariants = {
 
 const itemVariants = {
   hidden: { opacity: 0, scale: 0.8 },
-  visible: { opacity: 1, scale: 1, transition: { duration: 0.5 } }
+  visible: { opacity: 1, scale: 1, transition: { duration: 0.9 } }
 };
 
 const Skills = () => {

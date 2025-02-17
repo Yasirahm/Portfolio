@@ -17,13 +17,13 @@ const containerVariants = {
   visible: {
     opacity: 1,
     y: 0,
-    transition: { staggerChildren: 0.2, duration: 0.8, ease: "easeOut" },
+    transition: { staggerChildren: 0.2, duration: 1, ease: "easeOut" },
   },
 };
 
 const itemVariants = {
   hidden: { opacity: 0, scale: 0.8 },
-  visible: { opacity: 1, scale: 1, transition: { duration: 0.5 } },
+  visible: { opacity: 1, scale: 1, transition: { duration: 2 } },
 };
 
 const About = () => {
