@@ -15,7 +15,7 @@ const Header = () => {
       
       {/* Mobile Menu Button */}
       <div className="md:hidden">
-        <button onClick={() => setIsOpen(!isOpen)} className="text-black     focus:outline-none">
+        <button onClick={() => setIsOpen(!isOpen)} className="text-white     focus:outline-none">
           {isOpen ? <X size={28} /> : <Menu size={28} />}
         </button>
       </div>
