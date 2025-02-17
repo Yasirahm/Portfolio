@@ -10,7 +10,7 @@ const Header = () => {
     <header className="p-4 bg-transparent fixed w-full top-0 z-10 shadow-lg flex justify-between items-center md:px-10">
       <div className="flex items-center">
         <img src={logo} alt="Logo" className="h-10 mr-2 rounded-full" />
-        <h1 className="text-xl lg:text-2xl font-bold text-black">Yasir Hamid</h1>
+        <h1 className="text-xl lg:text-2xl font-bold text-white">Yasir Hamid</h1>
       </div>
       
       {/* Mobile Menu Button */}
