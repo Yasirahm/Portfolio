@@ -9,7 +9,11 @@ import Home from './components/Home'
 
 const App = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-t from-orange-900 via-gray-700  to-purple-800  text-gray-900 font-sans">
+    <div className="min-h-screen text-gray-100 font-sans bg-gradient-to-r from-purple-800 via-orange-900  to-purple-900 animated-gradient">
+
+
+
+
    <section id="header" className='h-[160px] lg:h-full'>
 
 <Header/>
