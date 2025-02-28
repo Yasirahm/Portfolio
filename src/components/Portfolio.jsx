@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 import image16 from "../assets/image16.png";
 import image17 from "../assets/image17.png";
+import image22 from "../assets/ziyaara.png";
 import image18 from "../assets/image18.png";
 import image19 from "../assets/image19.png";
 import image20 from "../assets/image20.png";
@@ -44,6 +45,13 @@ const projects = [
     description: "A React-focused blog providing information on React fundamentals.",
     image: image17,
     liveLink: "https://yasirblog2.netlify.app/",
+  },
+
+  {
+    title: "Ziyaara App",
+    description: "An Islamic app designed to provide users with authentic Hadith, stories of Prophets and Sahaba, a Qibla Finder, and step-by-step Arabic learning. Built with React Native and Tailwind CSS, Ziyaara aims to make Islamic knowledge accessible in a simple and interactive way.",
+    image: image22,
+    liveLink: "https://ziyaara.netlify.app/",
   },
 ];
 
