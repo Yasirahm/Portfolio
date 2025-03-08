@@ -3,7 +3,6 @@ import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
 import Yasir from "../assets/Yasir.png";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import SplineViewer from "./SplineComponent";
 
 const Home = () => {
   return (
@@ -46,7 +45,7 @@ const Home = () => {
           />
         </h3>
 
-        <p className="mt-6 text-white text-sm lg:text-lg leading-relaxed">
+        <p className="mt-6 text-gray-200 text-sm lg:text-lg leading-relaxed">
           I’m a frontend web developer focused on crafting visually engaging,
           responsive, and user-centric web applications. With a passion for
           clean design and performance, I specialize in creating intuitive
@@ -82,7 +81,11 @@ const Home = () => {
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.8 }}
       >
-        <SplineViewer/>
+        <img
+          src={Yasir}
+          alt="Yasir"
+          className="w-[300px] h-[450px] object-cover rounded-xl"
+        />
       </motion.div>
     </div>
   );
